@@ -1,0 +1,11 @@
+[package]
+name = "prometheus-metric"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+prometheus_exporter_base = { version = "1.4.0", features = ["hyper_server"] }
+prometheus-metric-derive = { version = "0.1.0", path = "../prometheus-metric-derive" }
