@@ -1,1 +1,6 @@
-target/
+/target
+/test_macro
+/.vscode
+/Cargo.lock
+example
+/targets.yml
