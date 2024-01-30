@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.75"
+prometheus-metric-derive = { git = "ssh://git@github.com/Vi-Robitaille/prometheus-metric-derive", version = "0.1.0" }
 prometheus_exporter_base = { version = "1.4.0", features = ["hyper_server"] }
-prometheus-metric-derive = { version = "0.1.0", path = "../prometheus-metric-derive" }
